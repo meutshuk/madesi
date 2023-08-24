@@ -12,7 +12,7 @@ export default function Nav() {
           </a>
 
           <button
-            className="md:hidden px-2 py-1 border rounded z-[100] absolute right-5 top-5
+            className="md:hidden px-2 py-1 border bg-gray-400 text-white rounded z-[100] absolute right-5 top-5
             "
             onClick={() => setIsOpen(!isOpen)}
           >

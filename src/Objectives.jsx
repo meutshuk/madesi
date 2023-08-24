@@ -1,6 +1,6 @@
 export default function Objectives() {
   return (
-    <section className=" snap-center h-screen flex flex-col justify-center items-center mx-10">
+    <section className=" h-fit md:h-screen flex flex-col justify-center items-center mx-6">
       <div className="container">
         <div className="text-2xl md:text-3xl text-center font-bold my-5">
           Our Objectives

@@ -1,11 +1,11 @@
 export default function Mission() {
   return (
-    <section className=" snap-center h-screen flex flex-col justify-center items-center mx-6">
+    <section className=" h-fit md:h-screen flex flex-col justify-center items-center mx-6">
       <div className="container   ">
         <div className="text-2xl  md:text-3xl text-center font-bold my-5">
           Our Mission
         </div>
-        <p className="text-base md:text-lg ">
+        <p className="text-sm md:text-lg ">
           Our organization is dedicated to the overall development of Madhesh,
           ensuring the constitutional and political rights of Madheshi people.
           We focus on enhancing a Madhesh-sensitive democratic culture within
