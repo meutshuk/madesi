@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-dot:before {
+  content: "•"; /* The bullet character */
+  color: #111; /* Bullet color */
+  font-size: 1.5em; /* Bullet size */
+  line-height: 1; /* Align the bullet with the text */
+  position: absolute;
+  left: -1.5em; /* Position the bullet to the left of the list item */
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(255, 255, 255);
+}
