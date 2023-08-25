@@ -35,7 +35,7 @@ function App() {
   return (
     <>
       <Nav />
-      <div className="snap-y snap-proximity">
+      <div className="">
         <Home />
         <Mission />
         <Objectives />
