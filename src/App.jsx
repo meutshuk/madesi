@@ -24,11 +24,11 @@ function App() {
 
     // Event listener to update the favicon if user changes system theme
     const darkSchemeQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    darkSchemeQuery.addEventListener(setFaviconForTheme);
+    darkSchemeQuery.addEventListener("change", setFaviconForTheme);
 
     // Cleanup listener on component unmount
     return () => {
-      darkSchemeQuery.removeEventListener(setFaviconForTheme);
+      darkSchemeQuery.removeEventListener("change", setFaviconForTheme);
     };
   }, []); // Empty dependency array to ensure this effect runs once after initial render
 
